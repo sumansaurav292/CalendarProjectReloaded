@@ -1,0 +1,97 @@
+body{ width: 90%;
+    position: relative;
+    margin: 0 auto;
+	//background:azure;
+	background:-webkit-gradient(linear, left top, left bottom, from(white), to(lightgreen) );
+     }
+header{ height: 100px;
+      background: skyblue;
+	  font-size:50px;
+       font-family:Comic Sans MS;
+	   font-weight:bold;
+      text-align:center;
+	  text-shadow:2px 2px 3px red;
+	  padding-top: 7px;
+	  margin-top: 5px;
+	  box-sizing: border-box;
+	  }
+#main{position:relative;
+      width:1000px;
+	  background:cornsilk;
+	  //left:170px;
+	  height:1200px;
+	  border:5px solid blue;
+	  border-radius:30px;
+	  margin: 10% 1%;
+	  height: 1200px;
+	  }
+.sec1{float:left;
+      width:256px;
+	  height:230px;
+      margin:34px;
+	  }
+#figure{margin:2em;
+       margin-top: 3em;
+       margin-left:-0.5em;
+	   width:98%;
+	   height:475px;
+       border:15px ridge springgreen;
+	   border-bottom-color:magenta;
+	   border-top-color:magenta;
+	   border-radius:15px;
+	   box-shadow:10px 10px 5px black;
+	   background:url(20170313_134802.jpg);
+	   background-repeat:no-repeat;
+	   background-size: 100% 100%;}
+table{text-align:center;
+     height:225px;
+      }
+table,th,td{border:1px solid black;
+            border-collapse:collapse;}
+th,td{width:30px;
+      height:32px;}
+td:nth-child(even){background:pink;}
+td:nth-child(odd){background:lavenderblush;}
+caption{font-family:merriweather;
+        font-weight:bold;}
+td:nth-child(7n){color:red;
+                 font-weight:bold;}
+td:nth-child(6n){color:red;
+                 font-weight:bold;}
+footer{margin-left:50px;
+     color: green;
+	 font-weight: 800;}
+ul{list-style-type:none;
+   margin-top:40px;}
+ul li{float:left;
+      width:100px;
+	  margin-left:20px;
+	  padding:15px;
+	  text-align:center;
+	  }
+
+mark{
+	font-size:1.3em;
+}
+th{
+	background-color: red;
+	color: white;
+}
+aside{
+	position: absolute;
+	right: -70px;
+	top: 770px;
+	background: cornsilk;
+	//border: 2px green solid;
+	//width: 200px;
+	//height: 700px;
+	font-size: 1.2em;
+	padding: 5px;
+}
+#t2 td{
+	height: 10px;
+}
+footer{
+	margin-top: -80px;
+	color: blue;
+}
